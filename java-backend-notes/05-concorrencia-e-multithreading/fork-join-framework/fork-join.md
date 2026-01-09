@@ -27,7 +27,7 @@ Baseado no princípio:
 ---
 
 ## 🎯 Quando usar
-- Algoritmos recursivos
+- Algoritmos recursivos (work-stealing e divider-concurre     )
 - Processamento pesado de CPU
 - Grandes volumes de dados
 
@@ -40,3 +40,5 @@ Baseado no princípio:
 
 ## 🧠 Regra de ouro
 > Fork/Join é para **CPU**, não para I/O
+
+# Dividir(processamento) pra conquistar

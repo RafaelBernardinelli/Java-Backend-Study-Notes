@@ -44,3 +44,5 @@ scheduler.scheduleAtFixedRate(
     () -> job(),
     0, 10, TimeUnit.SECONDS
 );
+
+scheduler.scheduleIsFixedDelay( )

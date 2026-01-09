@@ -25,7 +25,7 @@ Esquecer release()
 ```java
 Semaphore semaphore = new Semaphore(2);
 
-semaphore.acquire();
+semaphore.acquire(); // adquirir permissao, até estiver disponivel
 try {
     use();
 } finally {
